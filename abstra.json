@@ -1,0 +1,55 @@
+{
+  "workspace": {
+    "id": null,
+    "name": "Untitled Workspace",
+    "theme": null,
+    "logo_url": null,
+    "brand_name": null,
+    "main_color": null,
+    "font_color": null,
+    "font_family": null,
+    "sidebar": [
+      {
+        "id": "a4c17015-b1b2-48d0-93b4-cc178d2eff69",
+        "name": "Product Name",
+        "path": "product-name",
+        "type": "form",
+        "visible": false
+      }
+    ]
+  },
+  "visualization": [],
+  "jobs": [],
+  "hooks": [],
+  "forms": [
+    {
+      "id": "a4c17015-b1b2-48d0-93b4-cc178d2eff69",
+      "path": "product-name",
+      "title": "Product Name",
+      "is_initial": true,
+      "auto_start": false,
+      "allow_restart": true,
+      "end_message": "Thank you, click \"Restart\"",
+      "start_message": "Compare product prices b/w Amazon and Flipkart",
+      "error_message": null,
+      "welcome_title": "\ud83c\udf8a Product Price Comparison",
+      "timeout_message": null,
+      "start_button_text": "Start",
+      "restart_button_text": null,
+      "file": "product_name.py",
+      "workflow_position": [
+        0.0,
+        0.0
+      ],
+      "transitions": [],
+      "notification_trigger": {
+        "variable_name": "assignee_emails",
+        "enabled": false
+      }
+    }
+  ],
+  "scripts": [],
+  "iterators": [],
+  "conditions": [],
+  "version": "5.0"
+}
